@@ -75,7 +75,13 @@ staff_long %>%
 ### Exercise 5
 Part-time faculty has gone up significantly, whereas the full-time tenured and full-time tenure track faculty have decreased. Graduate students have remained relatively the same. 
 ```{r lineplot-2}
-# remove this comment and add your code here
+staff_long %>%
+     ggplot(aes(x = years, y = value, color = faculty_type, group = faculty_type)) +
+     geom_line() +
+     labs(title = "Instructional Staff Employment",
+          y= "Percentage of Staff",
+          x= "Year",
+          color = "Faculty Type")
 ```
 
 
