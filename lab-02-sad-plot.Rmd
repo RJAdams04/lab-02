@@ -110,7 +110,7 @@ Next team member should pull to download updates and continue from here.
 
 ### Exercise 7
 
-*Remove this text and add your answer here. No code needed for this exercise!*
+*Create a new variable which displays the increase in percentage from one year to another and plot that against time. *
 
 
 ### Exercise 8
