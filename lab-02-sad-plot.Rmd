@@ -1,6 +1,6 @@
 ---
 title: "Lab 02 - Take a sad plot and make it better"
-author: "Group Members: Ryan, Dimitris
+author: "Group Members: Ryan, Dimitris, Connor
 output:html_document
 ---
 
